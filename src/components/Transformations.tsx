@@ -16,8 +16,8 @@ const STORY = {
     'Better Physique',
     'Higher Confidence'
   ],
-  beforeImage: '/transformations/beforA.jpg',
-  afterImage: '/transformations/WhatsApp Image 2026-07-17 at 16.02.06.jpeg',
+  beforeImage: '/transformations/transformation-before.jpg',
+afterImage: '/transformations/transformation-after.jpeg',
 };
 
 export function Transformations() {

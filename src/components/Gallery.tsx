@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
+
 // Automatically import all images from /public/gallery
 const GALLERY_IMAGES = [
   '/gallery/1st.jpg',
@@ -10,7 +11,7 @@ const GALLERY_IMAGES = [
   '/gallery/5th.jpg',
   '/gallery/6th.jpg',
   '/gallery/7th.jpg',
-  '/gallery/8th.jpg'
+  '/gallery/8th.jpg',
 ];
 
 const getGridClass = (index: number) => {
